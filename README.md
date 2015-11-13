@@ -89,7 +89,13 @@ sudo chkconfig memcached on
 
 S3のbucket名に指定するbucketは予め作成しておきます。
 
-### 8. Complete
+### 8. Azure クライアント ライブラリの入手
+
+```
+php composer.phar install
+```
+
+### 9. Complete
 
 ブラウザでインスタンスにHTTPでアクセスします。
 EMLauncherのログインページが表示されたら完了です。
